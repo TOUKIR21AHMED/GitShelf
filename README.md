@@ -25,3 +25,7 @@ Ensure you have the following installed:
   Check with:
   ```bash
   node --version
+
+### Check Node Version
+npm --version
+
