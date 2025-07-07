@@ -1,29 +1,27 @@
-# RepoFolio
+# GitShelf
 
-RepoFolio takes in a GitHub username and uses publicly available information to construct a portfolio website for them. Within the webapp, the user may choose which repos to hide and to show, specify their contact information, write detailed summaries about the projects, and edit their "About Me" section. After doing so, they can export their website as a single, portable .html file.
+GitShelf is a dynamic portfolio builder that leverages your GitHub username to automatically generate a personalized portfolio website. By fetching publicly available GitHub data, it allows you to selectively showcase your repositories, add detailed project descriptions, customize your "About Me" section, and provide your contact information — all within an intuitive interface. Once you’ve tailored your portfolio, GitShelf lets you export it as a standalone, portable HTML file that you can easily share or host anywhere.
 
-This project was submitted for BoilerMake IX; the devpost can be found [here](https://devpost.com/software/repofolio).
+---
 
-## Installation / User Guide
-First, verify that you have `npm` installed with 
-```
-npm --version
-```
-(you should see some number; if an error occurs, go install `npm`!).
+## Features
 
-Also verify that you have Node version v16.13.2 and above with 
-```
-node --version
-```
+- **Automatic GitHub Data Integration** — Import your GitHub profile and repositories effortlessly.
+- **Selective Project Display** — Choose which repositories to show or hide.
+- **Custom Project Summaries** — Write rich descriptions for each project to highlight your work.
+- **Editable Profile & Contact Info** — Personalize your “About Me” and contact sections.
+- **Exportable HTML Portfolio** — Download a complete, single-page portfolio to use offline or host on any platform.
+- **Live Edit and Preview Modes** — Seamlessly switch between editing and previewing your portfolio.
 
-Once that's complete, simply
-```
-git clone https://github.com/fuzzyhappy/RepoFolio
-cd RepoFolio
-npm install
-npm start
-```
-(Note: the install may take a while.) After you run `npm start`, you should eventually be able to navigate to `localhost:3000/repofolio`, where you can access the app!
+---
 
-Alternatively, you can access a hosted version of the app [here](https://fuzzyhappy.github.io/repofolio/), but the export functionality doesn't work particularly well there (mainly if you just want to see it in action and don't want to deal with `npm` messes).
+## Installation
 
+### Prerequisites
+
+Ensure you have the following installed:
+
+- **Node.js** (version 16.13.2 or higher)  
+  Check with:
+  ```bash
+  node --version
