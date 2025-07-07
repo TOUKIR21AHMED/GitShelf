@@ -28,4 +28,14 @@ Ensure you have the following installed:
 
 ### Check Node Version
 npm --version
+### Clone this repository:
+git clone https://github.com/TOUKIR21AHMED/GitShelf.git
+cd GitShelf
+### Install dependencies:
+npm install
+### Start the development server:
+npm start
+### Open your browser and navigate to:
+Open your browser and navigate to:
 
+### Created by Toukir Ahmed
